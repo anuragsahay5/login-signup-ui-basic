@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login-Sign up</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="main_frame">
+    <div class="log_sign_frame">
+      <div class="button_grp">
+        <div id="log_btn" class="clicked_log">Login</div>
+        <div id="sign_btn">Register</div>
+      </div>
+      <div id="log_frame" class="csld">
+        <form class="log_form" action="/" method="post">
+          <div class="log_uname">
+            <input type="text" name="log_uname" placeholder="Username" required />
+          </div>
+          <div class="log_upsw">
+            <input type="password" name="log_upsw" placeholder="Password" required />
+          </div>
+          <div class="log_sub_btn"><button type="submit">Log In</button></div>
+        </form>
+        <div class="forget_bar">
+          <a href="">
+            <abbr title="Click here to reset password">Forgot Password?</abbr>
+          </a>
+        </div>
+      </div>
+      <div id="sign_frame" class="csl">
+        <form class="sign_form">
+          <div class="sign_uname">
+            <input type="text" name="sign_uname" placeholder="Username" required />
+          </div>
+          <div class="sign_upsw">
+            <input type="password" name="sign_upsw" placeholder="Password" required />
+          </div>
+          <div class="sign_upsw_cfm">
+            <input type="password" name="sign_upsw_cfm" placeholder="Confirm Password" required />
+          </div>
+          <div class="sign_sub_btn">
+            <button type="submit">Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

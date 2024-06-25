@@ -1,0 +1,102 @@
+* {
+  font-family: "quicksand", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  /* color: #57b846; */
+  color: #0078ff;
+}
+#user_warn {
+  width: 250px;
+  font-size: small;
+  color: red;
+}
+.forget_bar {
+  text-align: left;
+  font-size: 0.9em;
+  padding: 10px 0 0 0;
+}
+.forget_bar a {
+  margin: 10px;
+}
+.log_sign_frame {
+  background-color: white;
+  width: 300px;
+  text-align: center;
+  position: absolute;
+  left: calc(50vw - 150px);
+  top: calc(50vh - 150px);
+  box-shadow: 1px 1px 5px #0000002b, -1px -1px 5px #00000026;
+  border-radius: 10px;
+  padding: 0 0 10px 0;
+}
+input {
+  width: 250px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  background-color: rgba(220, 220, 220, 0.785);
+  text-indent: 10px;
+  font-size: 15px;
+  transition: width 0.25s;
+}
+input:focus {
+  width: 255px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.195);
+}
+.button_grp {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.button_grp div {
+  text-align: center;
+  width: 50%;
+  padding: 15px 0;
+  cursor: pointer;
+}
+.button_grp button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+.clicked_log {
+  /* background-color: #57b846; */
+  background-color: #0078ff;
+  border-radius: 10px 10px 10px 0;
+  color: white;
+}
+.clicked_sign {
+  /* background-color: #57b846; */
+  background-color: #0078ff;
+  border-radius: 10px 10px 0 10px;
+  color: white;
+}
+.csl {
+  display: none;
+}
+.csld {
+  display: block;
+}
+#log_frame button,
+#sign_frame button {
+  width: 250px;
+  height: 40px;
+  /* background-color: #57b846; */
+  background-color: #0078ff;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+#log_frame div,
+#sign_frame div {
+  margin: 10px 0;
+}
